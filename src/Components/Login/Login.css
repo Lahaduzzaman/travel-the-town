@@ -1,0 +1,75 @@
+.login-form {
+  height: 1000vh;
+  width: 100%;
+}
+
+.app-authentication {
+  height: 100px;
+  width: 30%;
+  margin: 0 auto;
+}
+.form-container {
+  height: auto;
+  width: 40%;
+  margin: 0 auto;
+  border: none;
+  background: rgba(125, 221, 221, 0.932);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.form-container h4 {
+  width: 80%;
+  margin: 10px auto;
+  font-weight: 700;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.invalid-feedback {
+  display: block !important;
+  font-size: 0.8rem;
+  width: 80%;
+  margin: 0 auto;
+}
+
+input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background: none;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 1px solid rgba(95, 92, 92, 0.582);
+}
+
+.google,
+.facebook {
+  margin: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+i {
+  margin-right: 15px;
+}
+
+.toggler {
+  width: 70px;
+  margin: 0 auto;
+}
+
+@media (max-width: 750px) {
+  .form-container {
+    height: auto;
+    width: 80%;
+  }
+  .app-btn {
+    width: 400px !important;
+  }
+}

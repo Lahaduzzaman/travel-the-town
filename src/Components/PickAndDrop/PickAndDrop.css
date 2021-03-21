@@ -1,0 +1,13 @@
+input {
+    border: none;
+    background: white;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+label {
+    font-size: 1rem;
+    margin:5px auto;
+    color:rgb(44, 122, 34);
+}

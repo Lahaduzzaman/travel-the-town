@@ -1,0 +1,53 @@
+.found {
+  background: #4f5cceea;
+  height: 300px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.route {
+  background: rgba(62, 235, 10, 0.856);
+  height: 80px;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.rides {
+  height: 65px;
+  width: 100%;
+}
+.ride {
+  height: 45px;
+  background: rgba(192, 190, 189, 0.966);
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 10px;
+}
+.ride-image {
+  height: 30px;
+  width: 30px;
+}
+.passenger img {
+  height: 20px;
+  width: 20px;
+}
+
+.ride-type,
+.passenger,
+.fare {
+  margin: 0;
+}
+
+li {
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  color: white;
+}
+
+p {
+  font-size: 1rem;
+}
