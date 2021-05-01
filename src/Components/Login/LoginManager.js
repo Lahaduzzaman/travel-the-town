@@ -34,14 +34,15 @@ export const fbSignIn = () => {
     .auth()
     .signInWithPopup(fbProvider)
     .then((res) => {
+      console.log(res)
       const user = res.user;
-      const { displayName, photoURL, email, R } = res.user;
+      const { displayName, photoURL, email } = res.user;
       const signedInUser = {
         isSignedIn: true,
         name: displayName,
         email: email,
         photo: photoURL,
-        success: R,
+        success: true,
       };
       return signedInUser;
     })
