@@ -1,10 +1,10 @@
-A website for travelers.
+Travel The Town is a Ride Sharing Website.
 
 Live Site: https://travel-the-town.web.app/
 
 Overview:
 
-• Travel The Town is a Travelling Website.
+• Travel The Town is a Ride Sharing Web app using React JS.
 
 • You can choose your favorites place and select the place.
 
