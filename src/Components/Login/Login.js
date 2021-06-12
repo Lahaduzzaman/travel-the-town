@@ -159,12 +159,12 @@ const Login = () => {
       </div>
       <div className="app-authentication">
         <div className="google">
-          <Button className="app-btn d-flex align-items-center justify-content-between" onClick={handleGoogleSignIn} variant="danger w-75">
+          <Button className="app-btn d-flex align-items-center justify-content-between" onClick={handleGoogleSignIn} variant="primary w-75">
             <i className="fab fa-lg fa-google"></i>Continue with Google
           </Button>
         </div>
         <div className="facebook">
-          <Button className="app-btn d-flex align-items-center justify-content-between" onClick={handleFbSignIn} variant="primary w-75">
+          <Button className="app-btn d-flex align-items-center justify-content-between" onClick={handleFbSignIn} variant="warning w-75">
             <i className="fab fa-lg fa-facebook"></i>Continue with Facebook
           </Button>
         </div>
