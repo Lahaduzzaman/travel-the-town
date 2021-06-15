@@ -10,8 +10,9 @@ Overview:
 
 • Travel The Town is a Ride Sharing Web app using React JS.
 
-• You can choose your favorites place and select the place.
+• Users can choose rides and also users can select the place where the ride starts and where the ride ends.
 
-• When you can booking the place then you can see the place cost, distance and also see the google map for the selected place.
+• By choosing place users can see the place cost, distance and also see the google map for the chosen place.
+
 
 Technology: React, React-Router, Bootstrap, React Bootstrap, React Google Map, Firebase.
